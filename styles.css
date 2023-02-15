@@ -99,7 +99,7 @@
   font: 1em sans-serif;
 }
 
-/* .background-container {
+.background-container {
   display: flex;
   height: 200px;
 }
@@ -144,4 +144,4 @@
   border: 1px solid;
   width: 50%;
   padding: 5px;
-} */
+}
