@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid; */
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+  background-color: aliceblue;
+
+  /* align-items: center; */
+  /* align-content: space-between; */
+}
+
+.link:hover {
+  transform: translateY(10px) scale(1.2);
+}
+
+.social:hover {
+  background-color: rgba(212, 164, 221, 0.966);
+}
+
+.name {
+  font: 3em sans-serif;
+}
+
+.personal-container {
+  display: flex;
+  border: 0.1px solid;
+  border-color: rgb(216, 226, 226);
+  height: 200px;
+}
+
+.characteristics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font: 2em sans-serif;
+}
+
+.attributes {
+  display: flex;
+  flex-flow: column wrap-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  font: 2em sans-serif;
+}
+
+.personal-container {
+  display: flex;
+  border: 0.1px solid;
+  border-color: rgb(216, 226, 226);
+  height: 200px;
+}
+
+.characteristics {
+  display: flex;
+  flex-flow: column wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font: 2em sans-serif;
+}
+
+.attributes {
+  display: flex;
+  flex-flow: column wrap-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  font: 2em sans-serif;
+}
+
+.thumbnail {
+  /* border: 1px solid #ddd;
+  border-radius: 4px; */
+  padding: 5px;
+  width: 30px;
+}
+
+.thumbnail2 {
+  /* border: 1px solid #ddd;
+  border-radius: 4px; */
+  padding: 5px;
+  width: 50px;
+}
+
+.history {
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-start;
+  width: 100%;
+  background-color: rgb(151, 84, 214);
+  font: 1em sans-serif;
+}
+
+/* .background-container {
+  display: flex;
+  height: 200px;
+}
+
+.education {
+  display: flex-wrap;
+  border: 1px solid;
+  width: 50%;
+  padding: 5px;
+}
+
+.history {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(151, 84, 214);
+  font: 2em sans-serif;
+} */
+/* 
+.school {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 75%;
+  justify-content: space-around;
+  align-items: space-around;
+  font: 1.5em sans-serif;
+}
+
+.grades {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  height: 75%;
+  font: 1.5em sans-serif;
+} */
+
+/* .education {
+  display: flex;
+  border: 1px solid;
+  width: 50%;
+  padding: 5px;
+} */
