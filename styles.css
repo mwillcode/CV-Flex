@@ -9,7 +9,7 @@
   justify-content: space-around;
   position: sticky;
   top: 0px;
-  background-color: aliceblue;
+  background-color: #dad7cd;
 
   /* align-items: center; */
   /* align-content: space-between; */
@@ -40,6 +40,7 @@
   align-items: center;
   width: 50%;
   font: 2em sans-serif;
+  background-color: #588157;
 }
 
 .attributes {
@@ -49,31 +50,7 @@
   align-items: center;
   width: 50%;
   font: 2em sans-serif;
-}
-
-.personal-container {
-  display: flex;
-  border: 0.1px solid;
-  border-color: rgb(216, 226, 226);
-  height: 200px;
-}
-
-.characteristics {
-  display: flex;
-  flex-flow: column wrap-reverse;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  font: 2em sans-serif;
-}
-
-.attributes {
-  display: flex;
-  flex-flow: column wrap-reverse;
-  justify-content: space-around;
-  align-items: center;
-  width: 50%;
-  font: 2em sans-serif;
+  background-color: #a3b18a;
 }
 
 .thumbnail {
@@ -90,58 +67,68 @@
   width: 50px;
 }
 
-.history {
+.background {
   display: flex;
-  justify-content: space-around;
-  align-self: flex-start;
-  width: 100%;
-  background-color: rgb(151, 84, 214);
-  font: 1em sans-serif;
+  font: 1.2em sans-serif;
+  /*
+  align-items:flex-start;
+  align-items:flex-end;
+  align-items:center;
+  
+  flex-direction:column;
+  */
 }
 
-.background-container {
-  display: flex;
-  height: 200px;
+.background div {
+  width: 25%;
 }
 
-.education {
-  display: flex-wrap;
-  border: 1px solid;
-  width: 50%;
-  padding: 5px;
-}
-
-.history {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  background-color: rgb(151, 84, 214);
-  font: 2em sans-serif;
-} 
-/* 
 .school {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  height: 75%;
-  justify-content: space-around;
-  align-items: space-around;
-  font: 1.5em sans-serif;
+  align-items: center;
+  background-color: #a3b18a;
+}
+.grades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #588157;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  background-color: #a3b18a;
+}
+
+.places {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #588157;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .education {
+  display: flex;
+}
+
+.school {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
 }
 
 .grades {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  width: 50%;
-  height: 75%;
-  font: 1.5em sans-serif;
+  width: 25%;
 } */
-
-/* .education {
-  display: flex;
-  border: 1px solid;
-  width: 50%;
-  padding: 5px;
-}
