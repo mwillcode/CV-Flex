@@ -117,6 +117,37 @@ ul {
   align-items: center;
 }
 
+.career {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.info {
+  /* margin-left: 20px; */
+  background-color: #a3b18a;
+}
+
+.pic {
+  display: flex;
+  width: 15%;
+  height: 10%;
+  order: 1;
+  align-self: center;
+}
+
+p {
+  width: 70%;
+  font: 1em sans-serif;
+}
+.heading {
+  display: flex;
+  font: 1.2em sans-serif;
+  text-align: center;
+  align-items: center;
+  background-color: #588157;
+}
 /* .education {
   display: flex;
 }
