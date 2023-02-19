@@ -2,3 +2,250 @@
   box-sizing: border-box;
   /* border: 1px solid; */
 }
+/* Styling for screens smaller than 370px but anything under 275px does not work.  */
+body {
+  background-color: #eee9da;
+  margin: 0;
+  padding: 0;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #bdcdd6;
+  font-size: 1.1rem;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  height: min-content;
+}
+.progress-container {
+  background-color: #8ca6b4;
+  width: 100%;
+}
+
+.progress-container div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding: 15px;
+}
+
+p {
+  text-align: center;
+}
+
+.career-container {
+  background-color: #bdcdd6;
+  width: 100%;
+}
+
+.career-container div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.img1 {
+  display: none;
+}
+.img2 {
+  display: flex;
+  width: 100%;
+}
+
+.img3 {
+  display: flex;
+  width: 20%;
+  margin: 0;
+}
+
+/* Size rules for small size screens 370px+ */
+@media (min-width: 370px) {
+  body {
+    background-color: #eee9da;
+    margin: 0;
+    padding: 0;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #bdcdd6;
+    font-size: 1.1rem;
+    align-items: center;
+  }
+
+  .name {
+    display: flex;
+    align-items: center;
+  }
+
+  .progress {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  h2 {
+    display: flex;
+    font-size: 1.5em;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  h3 {
+    margin: 0;
+    height: min-content;
+  }
+
+  .progress-container {
+    background-color: #8ca6b4;
+    width: 100%;
+  }
+
+  .progress-container div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .career-container {
+    background-color: #bdcdd6;
+    width: 100%;
+  }
+
+  .career-container div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  .img1 {
+    display: none;
+  }
+  .img2 {
+    display: flex;
+    width: 100%;
+  }
+
+  .img3 {
+    display: flex;
+    width: 20%;
+    margin: 0;
+  }
+}
+/* Size rules for mid size screens 700px+ */
+@media (min-width: 700px) {
+  .progress-container {
+    display: flex;
+  }
+
+  .progress-container div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .career-container {
+    display: flex;
+  }
+
+  .career-container div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img2 {
+    display: flex;
+    width: 100%;
+  }
+
+  h2 {
+    display: flex;
+    font-size: 2.5em;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+/* Size rules for large size screens 1200px+ */
+@media (min-width: 1200px) {
+  .progress-container {
+    display: flex;
+  }
+
+  .progress-container div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .career-container {
+    display: flex;
+  }
+
+  .career-container div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img1 {
+    display: flex;
+    width: 50%;
+  }
+  .img2 {
+    display: flex;
+    width: 100%;
+  }
+
+  .change-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .change-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    display: flex;
+    font-size: 2.5em;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+}
